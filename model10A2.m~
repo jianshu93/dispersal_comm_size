@@ -12,8 +12,8 @@ function Mf=model10A2(gen,pt,a,im)
 dif=2; % max/min (1=neutral)
 isgraded=1; %if==1 > x=[dif dif-delta....1]; if==0 > x=[dif 1 1 1...1];  
 iskadmon=1; % dispersal mode = is global? (1=Kadmon,0=Mouquet/loreau)
-N=8; % no. communities
-S=100; % no. spp.
+N=64; % no. communities
+S=; % no. spp.
 jj=2;%100/S; % factor for community size (j=jj*S)
 m=1; %proportion of mortality 
 % im=2; %no. immigrants from mainland per gen. to metacom
